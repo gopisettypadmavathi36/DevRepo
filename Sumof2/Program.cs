@@ -14,14 +14,14 @@ namespace Sumof2
             c = Convert.ToInt32(Console.ReadLine());
             d = Convert.ToInt32(Console.ReadLine());
 
+
+
             for (int i = 0; i<=10; i++)
             {
-
                 b = a * i;
                 Console.WriteLine("Div of three numbers{0}*{1}={2}", a, i, b);
             }
-           
-            
+                       
             Console.ReadLine();
         }
     }
